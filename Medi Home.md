@@ -1,16 +1,49 @@
-###Atención medica domiciliaria 
+# Medi Home — Atención médica domiciliaria
 
-##Medi Home
-#Es una empresa que presta servicios de atención medica domiciliaria y necesita un sistema para administrar sus servicios. La empresa registra a sus pacientes con numero de id, nombre, correo electrónico, teléfono y dirección principal. También registra a los profesionales de salud, de quienes se conoce identificación, nombre, correo electrónico, numero de registro profesional y especialidad. 
+## Descripción de la empresa
 
-#Tanto los pacientes como los profesionales son considerados usuarios del sistema y pueden recibir notificaciones relacionadas con los servicios que le correspondan, paciente puede solicitar varios servicios domiciliarios. Cada servicio tiene un código único, fecha y hora programada, dirección de la atención, motivo de la solicitud y estado. Los estados posibles son, solicitado, programado, en atención, finalizado y cancelado.
+Medi Home es una empresa que presta servicios de atención médica domiciliaria y necesita un sistema para administrar sus servicios.
 
-#Cada servicio domiciliario corresponde a un único paciente y cuando es programado se le asigna un profesional de la salud. Un profesional puede atender múltiples servicios en fechas diferentes.
+## Pacientes y profesionales
 
-#Durante un servicio el profesional registra una atención medica, con fecha, hora de inicio y fecha y hora de finalización, observaciones clínicas y recomendaciones. Una atención medica existe exclusivamente como resultado de un servicio domiciliario y no tiene sentido independientemente de este.
+La empresa registra a sus pacientes con número de identificación, nombre, correo electrónico, teléfono y dirección principal.
 
-#Durante la atención puede registrarse 0 o varias mediciones de signos vitales, cada medición registra, fecha y hora, temperatura, frecuencia cardiaca, presión sistólica, presión diastólica y saturación de oxigeno. Las mediciones perteneces exclusivamente a la atención medica en la cual fueron tomadas.
+También registra a los profesionales de la salud, de quienes se conoce la identificación, el nombre, el correo electrónico, el número de registro profesional y la especialidad.
 
-#La empresa organiza a sus profesionales en equipos de atención domiciliaria. cada equipo tiene, código, nombre y zona de cobertura, un equipo puede tener varios profesionales y un profesional puede cambiar de equipo sin dejar de pertenecer al sistema. 
+## Usuarios y notificaciones
 
-#Ademas algunos usuarios pueden recibir notificaciones. Todo elemento que pueda ser notificado debe ofrecer una operación para recibir un mensaje, aunque la forma concreta de hacerlo puede variar 
+Tanto los pacientes como los profesionales son considerados usuarios del sistema y pueden recibir notificaciones relacionadas con los servicios que les correspondan.
+
+Además, todo elemento que pueda ser notificado debe ofrecer una operación para recibir un mensaje, aunque la forma concreta de hacerlo puede variar según el tipo de usuario.
+
+## Servicios domiciliarios
+
+Un paciente puede solicitar varios servicios domiciliarios. Cada servicio tiene un código único, fecha y hora programada, dirección de la atención, motivo de la solicitud y estado.
+
+Los estados posibles son:
+
+- Solicitado
+- Programado
+- En atención
+- Finalizado
+- Cancelado
+
+Cada servicio domiciliario corresponde a un único paciente y, cuando es programado, se le asigna un profesional de la salud. Un profesional puede atender múltiples servicios en fechas diferentes.
+
+## Atención médica
+
+Durante un servicio, el profesional registra una atención médica, con fecha y hora de inicio, fecha y hora de finalización, observaciones clínicas y recomendaciones.
+
+Una atención médica existe exclusivamente como resultado de un servicio domiciliario y no tiene sentido independientemente de este.
+
+## Mediciones de signos vitales
+
+Durante la atención pueden registrarse cero o varias mediciones de signos vitales. Cada medición registra fecha y hora, temperatura, frecuencia cardiaca, presión sistólica, presión diastólica y saturación de oxígeno.
+
+Las mediciones pertenecen exclusivamente a la atención médica en la cual fueron tomadas.
+
+## Equipos de atención
+
+La empresa organiza a sus profesionales en equipos de atención domiciliaria. Cada equipo tiene código, nombre y zona de cobertura.
+
+Un equipo puede tener varios profesionales y un profesional puede cambiar de equipo sin dejar de pertenecer al sistema.
