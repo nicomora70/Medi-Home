@@ -22,7 +22,8 @@ El taller pedía, a partir del enunciado visto en clase y del diagrama de clases
 
 ## 3. Diagrama de clases
 
-![Diagrama de clases MediHome](docs/diagrama-medihome.png)
+<img width="1293" height="1035" alt="Medihome " src="https://github.com/user-attachments/assets/3d4ca5e9-b969-427e-afb4-abaf4d5742ce" />
+
 
 Clases:
 
