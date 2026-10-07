@@ -1,6 +1,5 @@
 package com.medihome;
 
-/** Paciente del sistema. Hereda de Usuario e implementa Notificable. */
 public class Paciente extends Usuario implements Notificable {
     private String telefono;
     private String direccionPrincipal;

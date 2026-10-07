@@ -1,6 +1,5 @@
 package com.medihome;
 
-/** Profesional de la salud. Hereda de Usuario e implementa Notificable. */
 public class ProfesionalSalud extends Usuario implements Notificable {
     private String numeroRegistroProfesional;
     private String especialidad;

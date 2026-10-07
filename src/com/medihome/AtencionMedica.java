@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/** Atencion medica registrada durante un servicio. Solo existe como resultado del servicio. */
 public class AtencionMedica {
     private LocalDateTime fechaHoraInicio;
     private LocalDateTime fechaHoraFin;

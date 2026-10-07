@@ -1,6 +1,5 @@
 package com.medihome;
 
-/** Clase base de los usuarios del sistema (pacientes y profesionales). */
 public abstract class Usuario {
     private String identificacion;
     private String nombre;

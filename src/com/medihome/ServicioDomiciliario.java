@@ -2,7 +2,6 @@ package com.medihome;
 
 import java.time.LocalDateTime;
 
-/** Servicio domiciliario solicitado por un paciente. */
 public class ServicioDomiciliario {
     private String codigo;
     private LocalDateTime fechaProgramada;
@@ -71,7 +70,6 @@ public class ServicioDomiciliario {
         return atencion;
     }
 
-    /** Programa el servicio asignandole un profesional. */
     public void programar(ProfesionalSalud profesional, LocalDateTime fecha) {
         asignarProfesional(profesional);
         this.fechaProgramada = fecha;
@@ -84,12 +82,10 @@ public class ServicioDomiciliario {
         this.profesional = profesional;
     }
 
-    /** Marca el inicio de la atencion en el domicilio. */
     public void iniciarAtencion() {
         this.estado = EstadoServicio.EN_ATENCION;
     }
 
-    /** Genera la atencion medica resultado de este servicio (composicion 1 a 0..1). */
     public AtencionMedica generarAtencion(LocalDateTime inicio) {
         this.atencion = new AtencionMedica(inicio, this);
         return this.atencion;

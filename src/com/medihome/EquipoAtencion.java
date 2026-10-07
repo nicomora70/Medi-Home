@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/** Equipo de atencion domiciliaria que agrupa profesionales por zona de cobertura. */
 public class EquipoAtencion {
     private String codigo;
     private String nombre;

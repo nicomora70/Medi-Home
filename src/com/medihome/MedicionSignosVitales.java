@@ -2,7 +2,6 @@ package com.medihome;
 
 import java.time.LocalDateTime;
 
-/** Medicion de signos vitales tomada durante una atencion. Pertenece solo a esa atencion. */
 public class MedicionSignosVitales {
     private LocalDateTime fechaHora;
     private double temperatura;
@@ -69,7 +68,6 @@ public class MedicionSignosVitales {
         this.saturacionOxigeno = saturacionOxigeno;
     }
 
-    /** Registra la medicion en la consola. */
     public void realizarMedicion() {
         System.out.println("Medicion registrada a las " + fechaHora + ": T=" + temperatura
                 + " C, FC=" + frecuenciaCardiaca + " lpm, PA=" + presionSistolica + "/" + presionDiastolica
